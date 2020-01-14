@@ -25,7 +25,7 @@ router.post('/callback',
       response: res,
       failureRedirect: '/failure',
       failureFlash: true,
-      successRedirect: '/'
+      successRedirect: '/' //the redirect url will be called upon calling back suceessfully
       // successRedirect: 'http://localhost:4200/'
     }
     )(req, res, next);
